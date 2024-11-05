@@ -1,0 +1,194 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "Ultra HD Desktop",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 200,
+        "description": "High-performance desktop with 4K display and 32GB RAM.",
+        "specification": [
+            "32GB RAM",
+            "1TB SSD",
+            "4K display",
+            "Intel i9 processor"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "2",
+        "product_title": "Gaming Desktop",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 300,
+        "description": "Powerful gaming desktop with dedicated graphics and water cooling.",
+        "specification": [
+            "64GB RAM",
+            "2TB SSD",
+            "NVIDIA RTX graphics",
+            "Liquid cooling"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "3",
+        "product_title": "All-in-One PC",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 150,
+        "description": "Space-saving all-in-one PC with a 24-inch display.",
+        "specification": [
+            "16GB RAM",
+            "512GB SSD",
+            "24-inch display",
+            "Intel i5 processor"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "4",
+        "product_title": "Business Workstation",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 180,
+        "description": "Reliable workstation for business and office tasks.",
+        "specification": [
+            "16GB RAM",
+            "1TB HDD",
+            "Intel i7 processor",
+            "Built-in security features"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "5",
+        "product_title": "Compact Mini PC",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 120,
+        "description": "Compact and portable mini PC with HDMI output.",
+        "specification": [
+            "8GB RAM",
+            "256GB SSD",
+            "HDMI output",
+            "Wi-Fi enabled"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "6",
+        "product_title": "High-End Workstation",
+        "product_image": "url-to-image",
+        "category": "computers",
+        "price": 350,
+        "description": "Workstation with advanced processing power for demanding tasks.",
+        "specification": [
+            "64GB RAM",
+            "4TB SSD",
+            "Intel Xeon processor",
+            "Quadro graphics"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "7",
+        "product_title": "Smartphone Pro Max",
+        "product_image": "url-to-image",
+        "category": "smartphones",
+        "price": 120,
+        "description": "Flagship smartphone with advanced camera and fast processor.",
+        "specification": [
+            "8GB RAM",
+            "128GB storage",
+            "Triple-lens camera",
+            "5G enabled"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "8",
+        "product_title": "Budget Smartphone",
+        "product_image": "url-to-image",
+        "category": "smartphones",
+        "price": 80,
+        "description": "Affordable smartphone with essential features.",
+        "specification": [
+            "4GB RAM",
+            "64GB storage",
+            "Single-lens camera",
+            "4G enabled"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "9",
+        "product_title": "Smartphone Ultra",
+        "product_image": "url-to-image",
+        "category": "smartphones",
+        "price": 150,
+        "description": "High-end smartphone with AMOLED display and enhanced battery life.",
+        "specification": [
+            "12GB RAM",
+            "256GB storage",
+            "AMOLED display",
+            "5G enabled"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "10",
+        "product_title": "Gaming Laptop Pro",
+        "product_image": "url-to-image",
+        "category": "laptops",
+        "price": 250,
+        "description": "Gaming laptop with dedicated graphics and RGB lighting.",
+        "specification": [
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA GTX graphics",
+            "RGB keyboard"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "11",
+        "product_title": "Business Laptop",
+        "product_image": "url-to-image",
+        "category": "laptops",
+        "price": 180,
+        "description": "Reliable laptop designed for business and multitasking.",
+        "specification": [
+            "8GB RAM",
+            "512GB SSD",
+            "Intel i5 processor",
+            "Fingerprint reader"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "12",
+        "product_title": "Convertible Laptop",
+        "product_image": "url-to-image",
+        "category": "laptops",
+        "price": 200,
+        "description": "2-in-1 laptop with touchscreen and stylus support.",
+        "specification": [
+            "8GB RAM",
+            "256GB SSD",
+            "Touchscreen",
+            "360-degree hinge"
+        ],
+        "availability": true,
+        "rating": 4.6
+    }
+]

@@ -8,19 +8,32 @@ import {
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
+import Computer from './components/Computer/Computer';
+import Products from './components/Products/Products';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    children:[
+    children: [
       {
-        path:'/',
-        element:<Home></Home>
+        path: '/',
+        element: <Home></Home>,
+        children: [
+          {
+            path: '/',
+            loader: () => fetch('../public/products.json'),
+            element: <Products></Products>
+          },
+          {
+            path: '/computer',
+            element: <Computer></Computer>
+          }
+        ]
       },
       {
-        path:'/dashboard',
-        element:<Dashboard></Dashboard>
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>
       }
     ]
   },

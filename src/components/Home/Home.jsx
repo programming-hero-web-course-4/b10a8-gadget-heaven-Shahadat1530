@@ -1,8 +1,9 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import AllProduct from '../AllProduct/AllProduct';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const Home = () => {
+    
     return (
         <>
             <div className=' max-w-screen-2xl mx-auto'>
@@ -17,7 +18,20 @@ const Home = () => {
                     </div>
                 </div>
                 <Banner></Banner>
-                <AllProduct></AllProduct>
+
+                <h3 className="text-4xl font-bold text-center">Explore Cutting-Edge Gadgets</h3>
+
+                <div className='md:flex gap-10 mt-6'>
+                    <nav className='flex flex-col gap-3'>
+                        <NavLink to='/'>All Product</NavLink>
+                        <NavLink to='/computer'>Computers</NavLink>
+                        <NavLink >Smartphones</NavLink>
+                        <NavLink >Laptops</NavLink>
+                    </nav>
+                    <div >
+                        <Outlet></Outlet>
+                    </div>
+                </div>
             </div>
         </>
     );
