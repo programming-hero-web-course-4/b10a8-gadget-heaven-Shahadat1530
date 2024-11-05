@@ -10,6 +10,8 @@ import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
 import Computer from './components/Computer/Computer';
 import Products from './components/Products/Products';
+import SmartPhones from './components/SmartPhones/SmartPhones';
+import Laptops from './components/Laptops/Laptops';
 
 const router = createBrowserRouter([
   {
@@ -27,8 +29,18 @@ const router = createBrowserRouter([
           },
           {
             path: '/computer',
-            loader:() => fetch('../public/products.json'),
+            loader: () => fetch('../public/products.json'),
             element: <Computer></Computer>
+          },
+          {
+            path: '/smartphones',
+            loader:() => fetch('../public/products.json'),
+            element: <SmartPhones></SmartPhones>
+          },
+          {
+            path: '/laptops',
+            loader:() => fetch('../public/products.json'),
+            element: <Laptops></Laptops>
           }
         ]
       },

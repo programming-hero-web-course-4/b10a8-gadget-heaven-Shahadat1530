@@ -7,8 +7,8 @@ const Links = () => {
         <nav className='flex flex-col gap-3'>
             <NavLink to='/'>All Product</NavLink>
             <NavLink to='/computer'>Computers</NavLink>
-            <NavLink >Smartphones</NavLink>
-            <NavLink >Laptops</NavLink>
+            <NavLink to='/smartphones'>Smartphones</NavLink>
+            <NavLink to='/laptops'>Laptops</NavLink>
         </nav>
     );
 };
