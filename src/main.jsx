@@ -27,6 +27,7 @@ const router = createBrowserRouter([
           },
           {
             path: '/computer',
+            loader:() => fetch('../public/products.json'),
             element: <Computer></Computer>
           }
         ]

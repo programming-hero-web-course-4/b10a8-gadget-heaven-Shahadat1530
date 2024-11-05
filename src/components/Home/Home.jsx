@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import Links from '../Links/Links';
 
 const Home = () => {
     
@@ -22,12 +23,7 @@ const Home = () => {
                 <h3 className="text-4xl font-bold text-center">Explore Cutting-Edge Gadgets</h3>
 
                 <div className='md:flex gap-10 mt-6'>
-                    <nav className='flex flex-col gap-3'>
-                        <NavLink to='/'>All Product</NavLink>
-                        <NavLink to='/computer'>Computers</NavLink>
-                        <NavLink >Smartphones</NavLink>
-                        <NavLink >Laptops</NavLink>
-                    </nav>
+                    <Links></Links>
                     <div >
                         <Outlet></Outlet>
                     </div>
