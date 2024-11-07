@@ -12,6 +12,7 @@ import Computer from './components/Computer/Computer';
 import Products from './components/Products/Products';
 import SmartPhones from './components/SmartPhones/SmartPhones';
 import Laptops from './components/Laptops/Laptops';
+import Details from './components/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,11 @@ const router = createBrowserRouter([
             element: <Laptops></Laptops>
           }
         ]
+      },
+      {
+        path:'/product/:product_id',
+        element:<Details></Details>,
+        loader:() => fetch('../public/products.json')
       },
       {
         path: '/dashboard',
