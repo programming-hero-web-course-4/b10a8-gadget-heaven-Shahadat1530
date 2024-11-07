@@ -1,194 +1,195 @@
 [
     {
-        "product_id": "1",
-        "product_title": "Ultra HD Desktop",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 200,
-        "description": "High-performance desktop with 4K display and 32GB RAM.",
-        "specification": [
-            "32GB RAM",
-            "1TB SSD",
-            "4K display",
-            "Intel i9 processor"
-        ],
-        "availability": true,
-        "rating": 4.9
+      "product_id": "1",
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://images.pexels.com/photos/29020349/pexels-photo-29020349/free-photo-of-modern-smartphone-on-wooden-surface.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "smartphones",
+      "price": 120,
+      "description": "Flagship smartphone with advanced camera and fast processor.",
+      "specification": [
+        "8GB RAM",
+        "128GB storage",
+        "Triple-lens camera",
+        "5G enabled"
+      ],
+      "availability": true,
+      "rating": 4.6
     },
     {
-        "product_id": "2",
-        "product_title": "Gaming Desktop",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 300,
-        "description": "Powerful gaming desktop with dedicated graphics and water cooling.",
-        "specification": [
-            "64GB RAM",
-            "2TB SSD",
-            "NVIDIA RTX graphics",
-            "Liquid cooling"
-        ],
-        "availability": true,
-        "rating": 4.8
+      "product_id": "2",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://images.pexels.com/photos/3776438/pexels-photo-3776438.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "laptops",
+      "price": 200,
+      "description": "2-in-1 laptop with touchscreen and stylus support.",
+      "specification": [
+        "8GB RAM",
+        "256GB SSD",
+        "Touchscreen",
+        "360-degree hinge"
+      ],
+      "availability": true,
+      "rating": 4.6
     },
     {
-        "product_id": "3",
-        "product_title": "All-in-One PC",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 150,
-        "description": "Space-saving all-in-one PC with a 24-inch display.",
-        "specification": [
-            "16GB RAM",
-            "512GB SSD",
-            "24-inch display",
-            "Intel i5 processor"
-        ],
-        "availability": true,
-        "rating": 4.5
+      "product_id": "3",
+      "product_title": "HP Pavilion Gaming Desktop",
+      "product_image": "https://images.pexels.com/photos/7199194/pexels-photo-7199194.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "computers",
+      "price": 300,
+      "description": "Powerful gaming desktop with dedicated graphics and water cooling.",
+      "specification": [
+        "64GB RAM",
+        "2TB SSD",
+        "NVIDIA RTX graphics",
+        "Liquid cooling"
+      ],
+      "availability": true,
+      "rating": 4.8
     },
     {
-        "product_id": "4",
-        "product_title": "Business Workstation",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 180,
-        "description": "Reliable workstation for business and office tasks.",
-        "specification": [
-            "16GB RAM",
-            "1TB HDD",
-            "Intel i7 processor",
-            "Built-in security features"
-        ],
-        "availability": true,
-        "rating": 4.6
+      "product_id": "4",
+      "product_title": "MacBook Pro 16-inch",
+      "product_image": "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "laptops",
+      "price": 250,
+      "description": "High-performance laptop with dedicated graphics and high-resolution Retina display.",
+      "specification": [
+        "16GB RAM",
+        "1TB SSD",
+        "Apple M1 Pro chip",
+        "Retina display"
+      ],
+      "availability": true,
+      "rating": 4.8
     },
     {
-        "product_id": "5",
-        "product_title": "Compact Mini PC",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 120,
-        "description": "Compact and portable mini PC with HDMI output.",
-        "specification": [
-            "8GB RAM",
-            "256GB SSD",
-            "HDMI output",
-            "Wi-Fi enabled"
-        ],
-        "availability": true,
-        "rating": 4.3
+      "product_id": "5",
+      "product_title": "Samsung Galaxy S24 Ultra",
+      "product_image": "https://images.pexels.com/photos/16149966/pexels-photo-16149966/free-photo-of-get-ready-for-the-future-with-samsung-galaxy-s23.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "smartphones",
+      "price": 160,
+      "description": "Top-tier smartphone with advanced AI features and 4K recording.",
+      "specification": [
+        "12GB RAM",
+        "256GB storage",
+        "Quad-lens camera",
+        "5G enabled"
+      ],
+      "availability": true,
+      "rating": 4.9
     },
     {
-        "product_id": "6",
-        "product_title": "High-End Workstation",
-        "product_image": "url-to-image",
-        "category": "computers",
-        "price": 350,
-        "description": "Workstation with advanced processing power for demanding tasks.",
-        "specification": [
-            "64GB RAM",
-            "4TB SSD",
-            "Intel Xeon processor",
-            "Quadro graphics"
-        ],
-        "availability": true,
-        "rating": 4.9
+      "product_id": "6",
+      "product_title": "Lenovo ThinkCentre M720q",
+      "product_image": "https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "computers",
+      "price": 180,
+      "description": "Reliable workstation for business and office tasks.",
+      "specification": [
+        "16GB RAM",
+        "1TB HDD",
+        "Intel i7 processor",
+        "Built-in security features"
+      ],
+      "availability": true,
+      "rating": 4.6
     },
     {
-        "product_id": "7",
-        "product_title": "Smartphone Pro Max",
-        "product_image": "url-to-image",
-        "category": "smartphones",
-        "price": 120,
-        "description": "Flagship smartphone with advanced camera and fast processor.",
-        "specification": [
-            "8GB RAM",
-            "128GB storage",
-            "Triple-lens camera",
-            "5G enabled"
-        ],
-        "availability": true,
-        "rating": 4.6
+      "product_id": "7",
+      "product_title": "Samsung Galaxy A55",
+      "product_image": "https://images.pexels.com/photos/2402705/pexels-photo-2402705.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "smartphones",
+      "price": 80,
+      "description": "Affordable smartphone with essential features.",
+      "specification": [
+        "4GB RAM",
+        "64GB storage",
+        "Single-lens camera",
+        "4G enabled"
+      ],
+      "availability": true,
+      "rating": 4.2
     },
     {
-        "product_id": "8",
-        "product_title": "Budget Smartphone",
-        "product_image": "url-to-image",
-        "category": "smartphones",
-        "price": 80,
-        "description": "Affordable smartphone with essential features.",
-        "specification": [
-            "4GB RAM",
-            "64GB storage",
-            "Single-lens camera",
-            "4G enabled"
-        ],
-        "availability": true,
-        "rating": 4.2
+      "product_id": "8",
+      "product_title": "iMac 24-inch",
+      "product_image": "https://images.pexels.com/photos/28347063/pexels-photo-28347063/free-photo-of-a-laptop-and-coffee-cup-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "computers",
+      "price": 150,
+      "description": "Space-saving all-in-one PC with a 24-inch display.",
+      "specification": [
+        "16GB RAM",
+        "512GB SSD",
+        "24-inch Retina display",
+        "Apple M1 chip"
+      ],
+      "availability": true,
+      "rating": 4.5
     },
     {
-        "product_id": "9",
-        "product_title": "Smartphone Ultra",
-        "product_image": "url-to-image",
-        "category": "smartphones",
-        "price": 150,
-        "description": "High-end smartphone with AMOLED display and enhanced battery life.",
-        "specification": [
-            "12GB RAM",
-            "256GB storage",
-            "AMOLED display",
-            "5G enabled"
-        ],
-        "availability": true,
-        "rating": 4.7
+      "product_id": "9",
+      "product_title": "ASUS ROG Zephyrus G15",
+      "product_image": "https://images.pexels.com/photos/691810/pexels-photo-691810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "laptops",
+      "price": 250,
+      "description": "Gaming laptop with dedicated graphics and RGB lighting.",
+      "specification": [
+        "16GB RAM",
+        "1TB SSD",
+        "NVIDIA GTX graphics",
+        "RGB keyboard"
+      ],
+      "availability": true,
+      "rating": 4.8
     },
     {
-        "product_id": "10",
-        "product_title": "Gaming Laptop Pro",
-        "product_image": "url-to-image",
-        "category": "laptops",
-        "price": 250,
-        "description": "Gaming laptop with dedicated graphics and RGB lighting.",
-        "specification": [
-            "16GB RAM",
-            "1TB SSD",
-            "NVIDIA GTX graphics",
-            "RGB keyboard"
-        ],
-        "availability": true,
-        "rating": 4.8
+      "product_id": "10",
+      "product_title": "Apple Mac Mini M2",
+      "product_image": "https://images.pexels.com/photos/13988977/pexels-photo-13988977.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "computers",
+      "price": 120,
+      "description": "Compact and portable mini PC with powerful Apple M2 chip.",
+      "specification": [
+        "8GB RAM",
+        "256GB SSD",
+        "HDMI output",
+        "Wi-Fi enabled"
+      ],
+      "availability": true,
+      "rating": 4.3
     },
     {
-        "product_id": "11",
-        "product_title": "Business Laptop",
-        "product_image": "url-to-image",
-        "category": "laptops",
-        "price": 180,
-        "description": "Reliable laptop designed for business and multitasking.",
-        "specification": [
-            "8GB RAM",
-            "512GB SSD",
-            "Intel i5 processor",
-            "Fingerprint reader"
-        ],
-        "availability": true,
-        "rating": 4.5
+      "product_id": "11",
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://images.pexels.com/photos/3585090/pexels-photo-3585090.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "smartphones",
+      "price": 150,
+      "description": "High-end smartphone with AMOLED display and enhanced battery life.",
+      "specification": [
+        "12GB RAM",
+        "256GB storage",
+        "AMOLED display",
+        "5G enabled"
+      ],
+      "availability": true,
+      "rating": 4.7
     },
     {
-        "product_id": "12",
-        "product_title": "Convertible Laptop",
-        "product_image": "url-to-image",
-        "category": "laptops",
-        "price": 200,
-        "description": "2-in-1 laptop with touchscreen and stylus support.",
-        "specification": [
-            "8GB RAM",
-            "256GB SSD",
-            "Touchscreen",
-            "360-degree hinge"
-        ],
-        "availability": true,
-        "rating": 4.6
+      "product_id": "12",
+      "product_title": "Dell Precision Workstation",
+      "product_image": "https://images.pexels.com/photos/16114809/pexels-photo-16114809/free-photo-of-computer-and-laptop-on-the-desk.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "computers",
+      "price": 350,
+      "description": "Workstation with advanced processing power for demanding tasks.",
+      "specification": [
+        "64GB RAM",
+        "4TB SSD",
+        "Intel Xeon processor",
+        "Quadro graphics"
+      ],
+      "availability": true,
+      "rating": 4.9
     }
-]
+  ]
+  
