@@ -4,7 +4,6 @@ import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ReactStars from "react-rating-stars-component";
 
 const Details = () => {
     const { product_id } = useParams();
@@ -13,17 +12,22 @@ const Details = () => {
     const { product_title, product_image, price, description, specification, rating } = product;
 
     const handleCart = () => {
-        toast.success('Added To Dashboard!!');
-    }
+
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const isProductInCart = cart.some(item => item.product_id === product.product_id);
+        if (isProductInCart) {
+            toast.info('Product is already in the cart!');
+        } else {
+            cart.push(product);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            toast.success('Added to Cart!');
+        }
+    };
 
     const handleWishlist = () => {
-        toast.success('Added To Wishlist!!');
+        toast.success('Added to Wishlist!');
     }
-    const ratingStar = {
-        size: 30,
-        value: rating,
-        edit: false
-    };
+
     return (
         <div className='max-w-screen-2xl mx-auto'>
             <div className='bg-[#9538E2] text-white text-center p-5 pb-20'>
@@ -37,32 +41,36 @@ const Details = () => {
                         className="max-w-sm rounded-lg shadow-2xl" />
                     <div className='space-y-5'>
                         <h1 className="text-3xl font-bold">{product_title}</h1>
-                        <p className="text-2xl font-semibold">Price:${price}</p>
+                        <p className="text-2xl font-semibold">Price: ${price}</p>
                         <p>{description}</p>
                         <p className='font-bold'>Specification:</p>
-                        <div>
-                            {
-                                specification.map((spec, idx) => <li key={idx}>{spec}</li>)
-                            }
-                        </div>
-                        <p>Rating:</p>
-                        <span className='flex items-center gap-4'><ReactStars {...ratingStar} />{rating}</span>
+                        <ul>
+                            {specification.map((spec, idx) => (
+                                <li key={idx}>{spec}</li>
+                            ))}
+                        </ul>
+                        <p>Rating: {rating}</p>
                         <div>
                             <button
                                 onClick={handleCart}
                                 className="btn bg-[#9538E2] font-bold rounded-3xl text-white"
-                            >Add to Cart<FiShoppingCart></FiShoppingCart></button>
+                            >
+                                Add to Cart <FiShoppingCart />
+                            </button>
                             <button
                                 onClick={handleWishlist}
                                 className='btn ml-2 rounded-full bg-slate-50'
-                            ><FaRegHeart></FaRegHeart></button>
-                            <ToastContainer></ToastContainer>
+                            >
+                                <FaRegHeart />
+                            </button>
+                            <ToastContainer />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     );
-};
 
+};
 export default Details;
+

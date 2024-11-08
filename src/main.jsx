@@ -15,19 +15,6 @@ import Laptops from './components/Laptops/Laptops';
 import Details from './components/Details/Details';
 import Upcoming from './components/Upcoming/Upcoming';
 
-// const [addCart, setAddCart] = useState([]);
-// const handleCart = (data) => {
-//   const isSelected = addCart.find(product => product.product_id === data.product_id);
-
-//   if (isSelected) {
-//     const newSelected = [...addCart, data];
-//     setAddCart(newSelected);;
-//   }
-//   else{
-//     setAddCart(addCart)
-//   }
-// }
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,22 +26,22 @@ const router = createBrowserRouter([
         children: [
           {
             path: '/',
-            loader: () => fetch('../public/products.json'),
+            loader: () => fetch('/products.json'),
             element: <Products></Products>
           },
           {
             path: '/computer',
-            loader: () => fetch('../public/products.json'),
+            loader: () => fetch('/products.json'),
             element: <Computer></Computer>
           },
           {
             path: '/smartphones',
-            loader: () => fetch('../public/products.json'),
+            loader: () => fetch('/products.json'),
             element: <SmartPhones></SmartPhones>
           },
           {
             path: '/laptops',
-            loader: () => fetch('../public/products.json'),
+            loader: () => fetch('/products.json'),
             element: <Laptops></Laptops>
           }
         ]
@@ -62,11 +49,11 @@ const router = createBrowserRouter([
       {
         path: '/product/:product_id',
         element: <Details></Details>,
-        loader: () => fetch('../public/products.json')
+        loader: () => fetch('/products.json')
       },
       {
         path: '/upcoming',
-        loader: () => fetch('../public/newproducts.json'),
+        loader: () => fetch('/newproducts.json'),
         element: <Upcoming></Upcoming>
 
       },
