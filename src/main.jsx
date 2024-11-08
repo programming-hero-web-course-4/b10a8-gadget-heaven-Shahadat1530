@@ -13,6 +13,7 @@ import Products from './components/Products/Products';
 import SmartPhones from './components/SmartPhones/SmartPhones';
 import Laptops from './components/Laptops/Laptops';
 import Details from './components/Details/Details';
+import Upcoming from './components/Upcoming/Upcoming';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,12 @@ const router = createBrowserRouter([
         path:'/product/:product_id',
         element:<Details></Details>,
         loader:() => fetch('../public/products.json')
+      },
+      {
+        path:'/upcoming',
+        loader: () => fetch('../public/newproducts.json'),
+        element:<Upcoming></Upcoming>
+
       },
       {
         path: '/dashboard',

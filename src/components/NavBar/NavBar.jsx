@@ -7,6 +7,7 @@ import './NavBar.css'
 const NavBar = () => {
     const links = <>
         <NavLink to='/'>Home</NavLink>
+        <NavLink to='/upcoming'>Upcoming Product</NavLink>
         <NavLink to='/dashboard'>Dashboard</NavLink>
         
     </>

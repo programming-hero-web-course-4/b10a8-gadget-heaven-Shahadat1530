@@ -1,0 +1,82 @@
+[
+    {
+        "product_id": "13",
+        "product_title": "Microsoft Surface Studio 3",
+        "product_image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "category": "computers",
+        "price": "Coming Soon",
+        "description": "All-in-one desktop with a large touchscreen for creative professionals.",
+        "specification": [
+            "32GB RAM",
+            "1TB SSD",
+            "28-inch PixelSense display",
+            "Intel Core i7 processor"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "14",
+        "product_title": "Sony Xperia Pro-I",
+        "product_image": "https://images.pexels.com/photos/2591485/pexels-photo-2591485.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "category": "smartphones",
+        "price": "Coming Soon",
+        "description": "Professional-grade smartphone with 1-inch camera sensor for high-quality photography.",
+        "specification": [
+            "12GB RAM",
+            "512GB storage",
+            "1-inch Exmor RS sensor",
+            "5G enabled"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "15",
+        "product_title": "Lenovo Legion 7i",
+        "product_image": "https://images.pexels.com/photos/9229975/pexels-photo-9229975.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "category": "laptops",
+        "price": "Coming Soon",
+        "description": "High-performance gaming laptop with advanced cooling technology.",
+        "specification": [
+            "32GB RAM",
+            "1TB SSD",
+            "NVIDIA GeForce RTX 3080",
+            "16-inch QHD display"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "16",
+        "product_title": "Google Pixel Fold",
+        "product_image": "https://images.pexels.com/photos/19022728/pexels-photo-19022728/free-photo-of-hand-holding-folding-smartphone.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "category": "smartphones",
+        "price": "Coming Soon",
+        "description": "Google’s first foldable smartphone with an optimized multitasking experience.",
+        "specification": [
+            "12GB RAM",
+            "256GB storage",
+            "Foldable OLED display",
+            "5G enabled"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "17",
+        "product_title": "Bose SoundLink Flex",
+        "product_image": "https://images.pexels.com/photos/27745787/pexels-photo-27745787/free-photo-of-a-person-holding-a-black-and-white-speaker.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "category": "audio",
+        "price": "Coming Soon",
+        "description": "Portable Bluetooth speaker with waterproof design and impressive sound quality.",
+        "specification": [
+            "Waterproof IP67",
+            "Bluetooth 5.1",
+            "Up to 12 hours battery life",
+            "Bose PositionIQ technology"
+        ],
+        "availability": true,
+        "rating": 4.5
+    }
+]
