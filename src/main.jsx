@@ -1,6 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +14,19 @@ import SmartPhones from './components/SmartPhones/SmartPhones';
 import Laptops from './components/Laptops/Laptops';
 import Details from './components/Details/Details';
 import Upcoming from './components/Upcoming/Upcoming';
+
+// const [addCart, setAddCart] = useState([]);
+// const handleCart = (data) => {
+//   const isSelected = addCart.find(product => product.product_id === data.product_id);
+
+//   if (isSelected) {
+//     const newSelected = [...addCart, data];
+//     setAddCart(newSelected);;
+//   }
+//   else{
+//     setAddCart(addCart)
+//   }
+// }
 
 const router = createBrowserRouter([
   {
@@ -36,25 +49,25 @@ const router = createBrowserRouter([
           },
           {
             path: '/smartphones',
-            loader:() => fetch('../public/products.json'),
+            loader: () => fetch('../public/products.json'),
             element: <SmartPhones></SmartPhones>
           },
           {
             path: '/laptops',
-            loader:() => fetch('../public/products.json'),
+            loader: () => fetch('../public/products.json'),
             element: <Laptops></Laptops>
           }
         ]
       },
       {
-        path:'/product/:product_id',
-        element:<Details></Details>,
-        loader:() => fetch('../public/products.json')
+        path: '/product/:product_id',
+        element: <Details></Details>,
+        loader: () => fetch('../public/products.json')
       },
       {
-        path:'/upcoming',
+        path: '/upcoming',
         loader: () => fetch('../public/newproducts.json'),
-        element:<Upcoming></Upcoming>
+        element: <Upcoming></Upcoming>
 
       },
       {
